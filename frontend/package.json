@@ -1,0 +1,69 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@binance-chain/bsc-connector": "^1.0.0",
+    "@ethersproject/constants": "^5.3.0",
+    "@ethersproject/contracts": "^5.3.0",
+    "@ethersproject/providers": "^5.1.0",
+    "@ethersproject/units": "^5.3.0",
+    "@loadable/component": "^5.14.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@walletconnect/web3-provider": "^1.4.1",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/fortmatic-connector": "^6.1.6",
+    "@web3-react/frame-connector": "^6.0.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.1.9",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "bignumber.js": "^9.0.1",
+    "chokidar": "^3.5.2",
+    "clsx": "^1.1.1",
+    "ethereum-blockies-base64": "^1.0.2",
+    "ethers": "^5.3.1",
+    "notistack": "^1.0.5",
+    "p-min-delay": "^3.2.0",
+    "react": "^17.0.2",
+    "react-avatar": "^3.10.0",
+    "react-dom": "^17.0.2",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
+    "react-tradingview-widget": "^1.3.2",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^1.1.1",
+    "web3": "^1.3.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
